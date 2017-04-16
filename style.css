@@ -2,16 +2,31 @@ body {
 	font-family: 'Economica', sans-serif;
 	color: #000;
 	font-size: 20px;
+	text-align:center;
+	line-height: 1;
 }
 p {
 	line-height: 1;
 	margin: 0;
 }
+a {
+	color: #000;
+	font-weight: 400;
+	border: 3px solid #a7d0c8;
+	padding: 10px 0;
+	width: 100%;
+	display: inline-block;
+}
+a:hover,
+a:focus {
+	background: #a7d0c8;
+}
 h1 {
 	color: #a7d0c8;
 	font-size: 50px;
-	text-align:center;
 	margin: 50px;
+	line-height:1;
+	font-weight: 700;
 }
 .date-header {
 	background: #a7d0c8;
@@ -23,30 +38,45 @@ h1 {
 	border: none;
 	border-bottom: 3px solid black;
 	width: 100%;
+	text-align:center;
+	text-transform:uppercase;
+}
+.date-header h2 {
+	font-size: 30px;
 }
 .names-container {
-	text-align:center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .names-container > div {
 margin: 20px 0;
 }
 .names a {
-	color: #000;
-	font-weight: 400;
-	padding: 10px 0;
-	text-align:center;
 	border: 3px solid #a7d0c8;
 	display: inline-block;
 	width: 100%;
 }
-.button {
+.issue-border {
 	border: 3px solid #a7d0c8;
+}
+.issue-border h3 {
+	padding: 25px 0;
+	border-bottom: 3px solid #000;
+}
+.issue-border .column {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.issue-container textarea {
 	width: 100%;
-	background: none;
-	padding:10px 0;
-	font-size: 20px;
+	height: 200px;
 }
 .issue {
 	display: block;
-	text-align: center;
+	padding: 10px 0;
+	width: 100%;
 }
+label, .issue input:hover {
+	cursor: pointer;
+}
+
