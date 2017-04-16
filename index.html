@@ -6,39 +6,65 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col col-xs-12 text-center"><h1>Daily Tracker</h1></div>
-		</div>
-		<div class="row">
-			<div class="col date-header">
-				<p>Date</p>
+		<div class="columns">
+			<div class="column">
+				<h1>Daily Tracker</h1>
+			</div>
+		</div>		
+	</div>
+	<div class="container">
+		<div class="columns date-header">
+
+			<div class="column is-offset-one-quarter is-2">
+				<p>Date:</p>
+			</div>
+			<div class="column is-4">
 				<input type="text" date="">
 			</div>
-		</div>
+		</div>	
 	</div>
 	<div class="container names-container">
-		<div class="row show-grid">
-			<div class="names col col-md-3">Taylor<br/>Swift</div>
-			<div class="names col col-md-3">Davie<br/>Bowie</div>
-			<div class="names col col-md-3">Stevie<br/>Nicks</div>
-			<div class="names col col-md-3">Elvis<br/>Prestley</div>
+		<div class="columns">
+			<div class="names column">
+				<a href="#">Taylor<br/>Swift</a>
+			</div>
+			<div class="names column">
+				<a href="#">Davie<br/>Bowie</a>
+			</div>
+			<div class="names column">
+				<a href="#">Stevie<br/>Nicks</a>
+			</div>
+			<div class="names column">
+				<a href="#">Elvis<br/>Prestley</a>
+			</div>
 		</div>
-		<div class="row show-grid">
-			<div class="names col col-md-3">Kurt<br/>Cobain</div>
-			<div class="names col col-md-3">George<br/>Michaels</div>
-			<div class="names col col-md-3">Mariah<br/>Carey</div>
-			<div class="names col col-md-3">Celine<br/>Dion</div>
+		<div class="columns">
+			<div class="names column">
+				<a href="#">Kurt<br/>Cobain</a>
+			</div>
+			<div class="names column">
+				<a href="#">Celine<br/>Dion</a>
+			</div>
+			<div class="names column">
+				<a href="#">Michael<br/>Jackson</a>
+			</div>
+			<div class="names column">
+				<a href="#">Mariah<br/>Carey</a>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col col-md-3 col-md-offset-4">
-				<button>Evaluate</button>
+		<div class="columns">
+			<div class="column is-3 is-offset-4">
+				<a href="#" class="button">Evaluate</a>
 			</div>
 		</div>
 	</div>
