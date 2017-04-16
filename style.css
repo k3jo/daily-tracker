@@ -1,0 +1,28 @@
+body {
+	font-family: 'Economica', sans-serif;
+	color: #000;
+}
+h1 {
+	color: #a7d0c8;
+	font-size: 50px;
+}
+.date-header {
+	background: #a7d0c8;
+	padding: 25px 0;
+}
+.names-container > div {
+margin: 20px 0;
+}
+.names {
+	text-align:center;
+	border: 3px solid #a7d0c8;
+}
+button {
+	border: 1px solid #a7d0c8;
+	width: 100%;
+	background: none;
+}
+.issue {
+	display: block;
+	text-align: center;
+}
